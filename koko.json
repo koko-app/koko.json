@@ -1,0 +1,40 @@
+### JSON Template for Token Creation
+
+```json
+{
+  "token": {
+    "name": "koko",
+    "symbol": "koko",
+    "decimals": 18,
+    "total_supply": 900000000,
+    "price_per_token": "1 BNB",
+    "contract_details": {
+      "version": "0.8.0",
+      "compiler": "Solidity",
+      "contract_type": "ERC20",
+      "contract_address": "0xa1b66d17823a7b93605146dfce15cc1c4d1ca30f",
+      "network": "Binance Smart Chain",
+      "verified": true,
+      "transaction_url": "https://bscscan.com/address/0xa1b66d17823a7b93605146dfce15cc1c4d1ca30f",
+      "logo_url": "https://link.to/your/logo.png"
+    }
+  }
+}
+```
+
+### Explanation of Fields:
+- **token**: The main object representing the token.
+  - **name**: The name of the token ("koko").
+  - **symbol**: The symbol for the token ("koko").
+  - **decimals**: The number of decimal places for the token (typically 18 for ERC20 tokens).
+  - **total_supply**: The total supply of the token (900,000,000).
+  - **price_per_token**: The price of each token (1 BNB).
+  - **contract_details**: An object containing information about the smart contract.
+    - **version**: The Solidity version used for the contract (0.8.0).
+    - **compiler**: The name of the compiler used.
+    - **contract_type**: The type of contract (ERC20).
+    - **contract_address**: The address of the deployed contract (0xa1b66d17823a7b93605146dfce15cc1c4d1ca30f).
+    - **network**: The blockchain network where the token is deployed (Binance Smart Chain).
+    - **verified**: Indicates whether the contract is verified on a block explorer (true).
+    - **transaction_url**: A link to the token's page on BscScan.
+    - **logo_url**: A link to the token's logo image (replace with the actual URL).
